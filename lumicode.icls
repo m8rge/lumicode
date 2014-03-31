@@ -498,8 +498,8 @@
     </option>
     <option name="DIFF_MODIFIED">
       <value>
-        <option name="BACKGROUND" value="cad9fa" />
-        <option name="ERROR_STRIPE_COLOR" value="bccff9" />
+        <option name="BACKGROUND" value="fffdab" />
+        <option name="ERROR_STRIPE_COLOR" value="ede300" />
         <option name="EFFECT_TYPE" value="0" />
       </value>
     </option>
@@ -549,7 +549,7 @@
     <option name="EXECUTIONPOINT_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="ffffff" />
-        <option name="BACKGROUND" value="ff" />
+        <option name="BACKGROUND" value="3e3f96" />
         <option name="EFFECT_TYPE" value="0" />
       </value>
     </option>
@@ -666,21 +666,21 @@
     </option>
     <option name="LINE_FULL_COVERAGE">
       <value>
-        <option name="FOREGROUND" value="ccffcc" />
+        <option name="FOREGROUND" value="99d998" />
         <option name="FONT_TYPE" value="1" />
         <option name="EFFECT_TYPE" value="0" />
       </value>
     </option>
     <option name="LINE_NONE_COVERAGE">
       <value>
-        <option name="FOREGROUND" value="ffcccc" />
+        <option name="FOREGROUND" value="ff8e90" />
         <option name="FONT_TYPE" value="1" />
         <option name="EFFECT_TYPE" value="0" />
       </value>
     </option>
     <option name="LINE_PARTIAL_COVERAGE">
       <value>
-        <option name="FOREGROUND" value="ffffcc" />
+        <option name="FOREGROUND" value="fff749" />
         <option name="FONT_TYPE" value="1" />
         <option name="EFFECT_TYPE" value="0" />
       </value>
@@ -954,3 +954,4 @@
     </option>
   </attributes>
 </scheme>
+
