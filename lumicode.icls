@@ -8,6 +8,7 @@
   <colors>
     <option name="CARET_ROW_COLOR" value="f7f2ff" />
     <option name="LINE_NUMBERS_COLOR" value="303174" />
+    <option name="MODIFIED_LINES_COLOR" value="fffccc" />
   </colors>
   <attributes>
     <option name="ABSTRACT_CLASS_NAME_ATTRIBUTES">
