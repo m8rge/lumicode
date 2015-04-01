@@ -4,6 +4,7 @@ $heredoc = <<< HEREDOC_ID
 some $contents
 HEREDOC_ID;
 
+add line
 function foo() {
     // Sample comment
     return SomeClass::$shared;
