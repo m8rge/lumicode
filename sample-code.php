@@ -1,30 +1,30 @@
 <?php
-$contents = '';
 $heredoc = <<< HEREDOC_ID
 some $contents
 HEREDOC_ID;
 
-add line
+// removed line
 function foo() {
-    // Sample comment
+    $a = [0, 1, 2];
     return SomeClass::$shared;
 }
 
-class MyOwnClass extends One implements Another {
+// Sample comment
+
+class SomeClass extends One implements Another {
     private $my;
     public static $shared;
-    const MAGIC = 9876543210;
-
+    const CONSTANT = 0987654321;
     /**
      * Description by <a href="mailto:">user@host.dom</a>
-     * @param $abc
-     * @param $def
-     * @return array
+     * @property $magic
+     * @return SomeType
      */
     function doSmth($abc, $def) {
         foo();
-        $def .=  self::MAGIC;
-        $v = Helper::convert($abc . "\n {$def}");
+        $def .=  self::magic;
+        $def .=  self::CONSTANT;
+        $v = Helper::convert($abc . "\n {$def}" . $$def);
         $q = new Query( $this->invent(abs(0x80)) );
         return array($v => $q->result);
     }
@@ -33,5 +33,10 @@ class MyOwnClass extends One implements Another {
 interface Another {
 }
 
-include(dirname(__FILE__) . "includes.php");
+include (dirname(__FILE__) . "inc.php");
 `rm -r`;
+
+goto Label;
+
+Label:
+№
